@@ -24,7 +24,7 @@ El proyecto está encapsulado en un flujo modular y reproducible (`SEED = 29`) c
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | **Ev. 1** | MLP Base | 1.3200 | 54.37% | 0.5410 | 8.65M |
 | **Ev. 2** | CNN Sin Regularizar | ~0.68 | ~78.40% | ~0.78 | 4.83M |
-| **Ev. 3** | **CNN + DA + Drop(0.5) + ES (`Dense 256`)** | **0.3950** | **86.17%** | **0.8609** | **9.56M** |
+| **Ev. 3** | **CNN + DA + Drop(0.5) + ES (`Dense 256`)** | **0.4608** | **84.20%** | **0.8415** | **4.83M** |
 
 ## 4. Cómo Ejecutar
 1. Abrir `notebooks/E3_Pipeline_CNN_Entornos_Inmobiliarios.ipynb` en Google Colab con entorno **GPU T4**.
