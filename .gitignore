@@ -1,0 +1,18 @@
+# Entornos virtuales y caché de Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Datos crudos (se descargan automáticamente en Etapa 1)
+dataset/
+*.zip
+
+# Modelos pesados (>100 MB con estados de Adam)
+*.keras
+*.h5
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
